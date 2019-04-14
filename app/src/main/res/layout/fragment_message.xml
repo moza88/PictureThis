@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content" >
+    <android.support.v7.widget.AppCompatEditText android:id="@+id/itemEditText_id"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginStart="2dp"
+        android:layout_marginEnd="4dp"
+        android:lines="2"
+        android:scrollHorizontally="false"
+        android:maxLength="69"
+        android:scrollbars="vertical"
+        android:hint="Go ahead \nSend messge"
+        android:inputType="textMultiLine|textLongMessage"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+        android:maxLines="2"
+        android:minLines="1"
+        xmlns:android="http://schemas.android.com/apk/res/android"/>
+
+    <android.support.v7.widget.AppCompatImageButton
+        android:id="@+id/itemSendButton_id"
+        android:layout_width="25dp"
+        android:layout_height="20dp"
+        android:layout_alignParentEnd="true"
+        android:layout_centerVertical="true"
+        android:layout_marginEnd="11dp"
+        android:clickable="true"
+        android:focusable="true"
+        android:scaleType="fitCenter"
+        android:src="@drawable/ic_send_48px_512" />
+</RelativeLayout>

@@ -1,0 +1,33 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context="com.example.mabel.picturethis.LoginActivity">
+
+
+        <TextView
+            android:id="@+id/app_title"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:textStyle="bold"
+            android:textSize="60dp"
+            android:layout_centerHorizontal="true"
+            android:text="PictureThis!" />
+
+        <TextView
+            android:id="@+id/app_subtitle"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:textStyle="bold"
+            android:textSize="30dp"
+            android:layout_centerHorizontal="true"
+            android:layout_below="@id/app_title"
+            android:text="A photo scavenger hunt" />
+
+        <com.google.android.gms.common.SignInButton
+            android:id="@+id/sign_in_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"/>
+</RelativeLayout>
