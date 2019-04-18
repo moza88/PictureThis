@@ -2,7 +2,8 @@
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="fill_parent"
     android:layout_height="wrap_content" >
-    <android.support.v7.widget.AppCompatEditText android:id="@+id/itemEditText_id"
+
+    <android.support.v7.widget.AppCompatEditText android:id="@+id/new_message"
         android:layout_width="match_parent"
         android:layout_height="70dp"
         android:layout_marginTop="8dp"
@@ -20,13 +21,14 @@
         xmlns:android="http://schemas.android.com/apk/res/android"/>
 
     <android.support.v7.widget.AppCompatImageButton
-        android:id="@+id/itemSendButton_id"
-        android:layout_width="25dp"
-        android:layout_height="20dp"
+        android:id="@+id/sendButton"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
         android:layout_alignParentEnd="true"
         android:layout_centerVertical="true"
         android:layout_marginEnd="11dp"
         android:clickable="true"
+        android:onClick="publish"
         android:focusable="true"
         android:scaleType="fitCenter"
         android:src="@drawable/ic_send_48px_512" />

@@ -8,7 +8,7 @@ import android.view.ViewGroup;
 import android.widget.ArrayAdapter;
 import android.widget.TextView;
 
-import com.pubnub.example.android.datastream.pubnubdatastreams.R;
+import com.example.mabel.picturethis.R;
 
 import java.util.ArrayList;
 import java.util.List;
